@@ -1,11 +1,10 @@
-# Wizard of Wor (C++ Oyun Projesi)
+# Wizard of Wor 
 
 ## Proje Özeti
 **Wizard of Wor**, klasik arcade labirent-shooter oyunlarından esinlenilerek geliştirilmiş, C++ tabanlı 2D bir oyun projesidir. 
 Proje; modern oyun motorları (Unity, Unreal vb.) kullanılmadan, **düşük seviyede grafik çizimi**, **klavye tabanlı girdi işleme**, 
 **oyun döngüsü (game loop)** ve **durum yönetimi (state management)** gibi temel oyun programlama kavramlarını uygulamayı amaçlar.
 
-Bu çalışma, **akademik ders projeleri**, **GitHub portföyü** ve **CV/LinkedIn** kullanımı için uygun şekilde tasarlanmıştır.
 
 ---
 
@@ -33,6 +32,9 @@ WizardOfWor/
 ├── gameover.bmp                 # Oyun sonu ekranı
 ├── congr.bmp                    # Kazanma ekranı
 └── README.md
+.
+.
+.
 ```
 
 ---
@@ -62,18 +64,25 @@ Bu yapı, klasik arcade oyunlarının temel teknik prensiplerini yansıtır.
 ### Gereksinimler
 - Windows
 - **Visual Studio** (Desktop Development with C++ bileşeni yüklü)
+- ICBYTES kütüphanesi
 
 ### Adımlar
-1. Bu repository’yi klonlayın:
+
+1. ICBYTES kütüphanesini indir:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/cembaykal/ICBYTES
    ```
 
-2. `Wizard of Wor.sln` dosyasını Visual Studio ile açın.
+2. Bu repository’yi klonlayın:
+   ```bash
+   git clone <https://github.com/aanomali/WizardOfWar>
+   ```
 
-3. Varsayılan yapılandırma ile projeyi derleyin.
+3. `Wizard of Wor.sln` dosyasını Visual Studio ile açın.
 
-4. Uygulamayı Visual Studio üzerinden çalıştırın.
+4. Varsayılan yapılandırma ile projeyi derleyin.
+
+5. Uygulamayı Visual Studio üzerinden çalıştırın.
 
 > Not: `.bmp` uzantılı varlık dosyalarının (asset) çalıştırılabilir dosya ile aynı dizinde veya doğru göreli yolda bulunması gerekmektedir.
 
@@ -85,7 +94,8 @@ Bu proje kapsamında:
 - Düşük seviyede grafik ve girdi yönetimi,
 - Bitmap tabanlı varlık (asset) kullanımı,
 - Temel çarpışma ve durum mantığı tasarımı,
-- Klasik arcade oyun mekaniklerinin anlaşılması  
+- Klasik arcade oyun mekaniklerinin anlaşılması
+- Ses ve müzik entegrasyonu
 konularında pratik deneyim kazanılmıştır.
 
 ---
